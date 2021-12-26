@@ -13,7 +13,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     
     " File Explorer
     Plug 'scrooloose/NERDTree'
-    
+
+    " Snippets
+    Plug 'honza/vim-snippets'
+
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     
